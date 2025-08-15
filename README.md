@@ -40,6 +40,8 @@ train the model and predict:
 ```
 python main.py
 ```
+Before execute the above instruction, remember to change the dataset name in main.py.
+
 run the predictor:
 ```
 python predictor.py
