@@ -31,7 +31,19 @@ This directory holds the datasets used in this study.
 ```model```:
 
 In this directory are the models obtained from the training of each of the 27 datasets.
-
+## How to run
+undersample the datasets:
+```
+python undersampling.py
+```
+train the model and predict:
+```
+python main.py
+```
+run the predictor:
+```
+python predictor.py
+```
 ## About Predictor
 To facilitate online prediction, we have developed an online predictor based on Python.
 ### Download and Setup
