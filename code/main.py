@@ -17,7 +17,7 @@ mean_fpr=np.linspace(0,1,100)
 
 
 import undersampling
-def DeepW(file_name,kmer,seq_kernel,struc_kernel):
+def PreRBP(file_name,kmer,seq_kernel,struc_kernel):
     model_path = './model/'
     now = time.strftime("%Y-%m-%d-%H_%M_%S",time.localtime(time.time())) 
     # get training data and validation data
@@ -127,7 +127,7 @@ if __name__ == '__main__':
     # 5_CLIPSEQ_AGO2_hg19 MCC=0?
 
     # 18-20缺少
-    DeepW(dataset,kmer,seq_kernel,struc_kernel)
+    PreRBP(dataset,kmer,seq_kernel,struc_kernel)
 
 
 
